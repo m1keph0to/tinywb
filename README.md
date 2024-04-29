@@ -17,8 +17,12 @@ The documentation on the DIY-EFI website is just wrong. I can only assume that i
 Actually the DIY-EFI document is wrong - below is the decode from using a protocol analyser. (Kingst VIS Logic analyzer in decode mode)
 
 ### Idle mode 
-When the lambda sensor is not connected, the unit outputs something like 1,200 gap of 50mS and repeats
-
+When the lambda sensor is not connected, the unit outputs something like 
+```
+1,
+200
+gap of 50mS and repeats
+```
 ### Active mode 
 When the lambda sensor is connected, the unit outputs this pattern
 ```
